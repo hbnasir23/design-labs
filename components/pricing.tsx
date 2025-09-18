@@ -64,7 +64,7 @@ export function Pricing() {
     },
     {
       name: "Gold Package",
-      price: "$47.99",
+      price: "$89.99",
       text: "12 unique logo concepts with unlimited revisions.",
       features: [
         '12 unique logo concepts',

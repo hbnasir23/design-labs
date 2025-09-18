@@ -84,11 +84,16 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="w-4 h-4 text-teal-400" />
-                <span className="text-sm">hello@designlabsolutions.com</span>
+                <a
+                  href="mailto:hello@designlabsolutions.com"
+                  className="text-sm hover:text-teal-400 transition-colors"
+                >
+                  hello@designlabsolutions.com
+                </a>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Phone className="w-4 h-4 text-teal-400" />
-                <span className="text-sm">+1 (4455) 1271-0189</span>
+                <span className="text-sm">+1 (445) 271-0189</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="w-4 h-4 text-teal-400" />

@@ -56,11 +56,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="opacity-90">+1 (555) 123-4567</p>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Office</h4>
-                    <p className="opacity-90">123 Design Street, Creative City, CC 12345</p>
+                    <p className="opacity-90">+1 (203) 555-6548</p>
                   </div>
                 </div>
               </CardContent>

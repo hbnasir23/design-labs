@@ -88,16 +88,12 @@ export function Footer() {
                   href="mailto:hello@designlabsolutions.com"
                   className="text-sm hover:text-teal-400 transition-colors"
                 >
-                  hello@designlabsolutions.com
+                  hello.designlabsolutions@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Phone className="w-4 h-4 text-teal-400" />
-                <span className="text-sm">+1 (445) 271-0189</span>
-              </div>
-              <div className="flex items-center gap-3 text-gray-300">
-                <MapPin className="w-4 h-4 text-teal-400" />
-                <span className="text-sm">123 Design Street, Creative City</span>
+                <span className="text-sm">+1 (203) 555-6548</span>
               </div>
             </div>
           </div>

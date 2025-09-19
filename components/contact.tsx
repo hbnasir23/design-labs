@@ -67,8 +67,7 @@ export function Contact() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-3 hover:text-teal-400 transition"
                     >
-                      <Phone className="w-4 h-4 text-teal-400" />
-                      <span className="text-sm">+1 (203) 555-6548</span>
+                    <span className="text-sm">+1 (203) 555-6548</span>
                     </a>
                   </div>
 

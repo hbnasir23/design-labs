@@ -174,16 +174,31 @@ export function PaymentModal({ isOpen, onClose, packageName, packagePrice, strip
               <li>Refund requests must be submitted within 7 days of purchase.</li>
               <li>
                 To request a refund, please contact us at{" "}
-                <span className="text-teal-400">hello.designlabsolutions@gmail.com</span> with your order details.
+                <a
+                  href="mailto:hello.designlabsolutions@gmail.com"
+                  className="text-teal-400 hover:underline"
+                >
+                  hello.designlabsolutions@gmail.com
+                </a>{" "}
+                with your order details.
               </li>
-              <li>Approved refunds will be processed back to your original payment method within 5–10 business days (depending on your bank/Stripe).</li>
+              <li>
+                Approved refunds will be processed back to your original payment method within
+                5–10 business days (depending on your bank/Stripe).
+              </li>
             </ul>
 
             <h4 className="text-white font-semibold">5. Contact Us</h4>
             <p>
               If you have any questions about our refund policy, you may contact us at:{" "}
-              <span className="text-teal-400">📧 hello.designlabsolutions@gmail.com</span>
+              <a
+                href="mailto:hello.designlabsolutions@gmail.com"
+                className="text-teal-400 hover:underline"
+              >
+                📧 hello.designlabsolutions@gmail.com
+              </a>
             </p>
+
           </div>
         </DialogContent>
       </Dialog>

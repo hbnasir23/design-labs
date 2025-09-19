@@ -50,14 +50,28 @@ export function Contact() {
                   together.
                 </p>
                 <div className="space-y-4">
-                  <div>
-                    <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="opacity-90">hello@designlabsolutions.com</p>
+                <div>
+                  <h4 className="font-semibold mb-1">Email</h4>
+                  <a
+                    href="mailto:hello.designlabsolutions@gmail.com"
+                    className="opacity-90 text-teal-400 hover:underline"
+                  >
+                    hello.designlabsolutions@gmail.com
+                  </a>
+                </div>
+
+                  <div className="flex items-center gap-3 text-gray-300">
+                    <a
+                      href="https://wa.me/12035556548"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-3 hover:text-teal-400 transition"
+                    >
+                      <Phone className="w-4 h-4 text-teal-400" />
+                      <span className="text-sm">+1 (203) 555-6548</span>
+                    </a>
                   </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="opacity-90">+1 (203) 555-6548</p>
-                  </div>
+
                 </div>
               </CardContent>
             </Card>

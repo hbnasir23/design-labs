@@ -85,7 +85,7 @@ export function Footer() {
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="w-4 h-4 text-teal-400" />
                 <a
-                  href="mailto:hello@designlabsolutions.com"
+                  href="mailto:hello.designlabsolutions@gmail.com"
                   className="text-sm hover:text-teal-400 transition-colors"
                 >
                   hello.designlabsolutions@gmail.com

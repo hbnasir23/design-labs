@@ -16,21 +16,7 @@ export function Pricing() {
   } | null>(null);
 
   const packages = [
-    {
-      name: "Flyer & Business Card Package",
-      price: "$47.99",
-      text: "Professional flyers and business cards design package.",
-      features: [
-        "Custom flyer Design",
-        "Business card design",
-        "Print ready file",
-        "3 Revisions included",
-        "Standard formats (PNG, JPEG, PDF)",
-      ],
-      popular: false,
-      buttonColor: "bg-slate-600 hover:bg-slate-700",
-      stripeLink: "https://buy.stripe.com/7sYeVc8ufc4X5Uy1zu4Ja00",
-    },
+
     {
       name: "Silver Package",
       price: "$49.99",
@@ -45,6 +31,21 @@ export function Pricing() {
       popular: true,
       buttonColor: "bg-purple-600 hover:bg-purple-700",
       stripeLink: "https://buy.stripe.com/7sYeVc8ufc4X5Uy1zu4Ja00",
+    },
+        {
+      name: "Gold Package",
+      price: "$89.99",
+      text: "12 unique logo concepts with unlimited revisions.",
+      features: [
+        '12 unique logo concepts',
+        'Unlimited revisions',
+        'All file formats',
+        'Priority support',
+        'Brand guidelines'
+      ],
+      popular: false,
+      buttonColor: "bg-slate-600 hover:bg-slate-700",
+      stripeLink: "https://buy.stripe.com/6oU6oG6m73yrfv85PK4Ja01", // Replace with your actual Stripe link
     },
     {
       name: "Platinum Package",
@@ -62,21 +63,22 @@ export function Pricing() {
       buttonColor: "bg-slate-600 hover:bg-slate-700",
       stripeLink: "https://buy.stripe.com/7sYfZg39V9WP2Imemg4Ja02", // Replace with your actual Stripe link
     },
-    {
-      name: "Gold Package",
-      price: "$89.99",
-      text: "12 unique logo concepts with unlimited revisions.",
+        {
+      name: "Flyer & Business Card Package",
+      price: "$47.99",
+      text: "Professional flyers and business cards design package.",
       features: [
-        '12 unique logo concepts',
-        'Unlimited revisions',
-        'All file formats',
-        'Priority support',
-        'Brand guidelines'
+        "Custom flyer Design",
+        "Business card design",
+        "Print ready file",
+        "3 Revisions included",
+        "Standard formats (PNG, JPEG, PDF)",
       ],
       popular: false,
       buttonColor: "bg-slate-600 hover:bg-slate-700",
-      stripeLink: "https://buy.stripe.com/6oU6oG6m73yrfv85PK4Ja01", // Replace with your actual Stripe link
+      stripeLink: "https://buy.stripe.com/7sYeVc8ufc4X5Uy1zu4Ja00",
     },
+
   ];
 
   const handleGetStarted = (pkg: (typeof packages)[0]) => {

@@ -90,11 +90,19 @@ export function Footer() {
                 >
                   hello.designlabsolutions@gmail.com
                 </a>
-              </div>
+              </div>   
               <div className="flex items-center gap-3 text-gray-300">
-                <Phone className="w-4 h-4 text-teal-400" />
-                <span className="text-sm">+1 (203) 555-6548</span>
+                <a
+                  href="https://wa.me/12035556548"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 hover:text-teal-400 transition"
+                >
+                  <Phone className="w-4 h-4 text-teal-400" />
+                  <span className="text-sm">+1 (203) 555-6548</span>
+                </a>
               </div>
+
             </div>
           </div>
         </div>

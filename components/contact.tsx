@@ -49,6 +49,28 @@ export function Contact() {
                 Ready to transform your ideas into reality? Let's discuss your project and create something amazing together.
               </p>
               <div className="space-y-4">
+              <div>
+                <h4 className="font-semibold mb-1">Email</h4>
+                <p className="opacity-90 text-teal-400">
+                  hello.designlabsolutions@gmail.com
+                </p>
+              </div>
+
+              <div className="flex items-center gap-3 text-gray-300">
+                <span className="text-sm">+1 (203) 555-6548</span>
+              </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Box 2: Support Contact */}
+          <Card className="bg-teal-800 border-teal-400 text-white">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bold mb-4">Support Contact</h3>
+              <p className="mb-6 opacity-90">
+                Need help or have questions about our services? Our support team is here to assist you anytime.
+              </p>
+              <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
                   <a
@@ -66,37 +88,6 @@ export function Contact() {
                     className="flex items-center gap-3 hover:text-teal-400 transition"
                   >
                     <span className="text-sm">+1 (203) 555-6548</span>
-                  </a>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Box 2: Support Contact */}
-          <Card className="bg-teal-800 border-teal-400 text-white">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-4">Support Contact</h3>
-              <p className="mb-6 opacity-90">
-                Need help or have questions about our services? Our support team is here to assist you anytime.
-              </p>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold mb-1">Email</h4>
-                  <a
-                    href="mailto:support.designlabsolutions@gmail.com"
-                    className="opacity-90 text-teal-400 hover:underline"
-                  >
-                    support.designlabsolutions@gmail.com
-                  </a>
-                </div>
-                <div className="flex items-center gap-3 text-gray-300">
-                  <a
-                    href="https://wa.me/12034447890"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 hover:text-teal-400 transition"
-                  >
-                    <span className="text-sm">+1 (203) 444-7890</span>
                   </a>
                 </div>
               </div>

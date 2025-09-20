@@ -24,7 +24,7 @@ export function PaymentModal({ isOpen, onClose, packageName, packagePrice, strip
   const handleProceedToPayment = async () => {
     if (name.trim() && email.trim() && isRefundChecked) {
       try {
-        await fetch("https://usebasin.com/f/eb9b208f4047", {
+        await fetch("https://usebasin.com/f/ee568d1f8cb6", {
           method: "POST",
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",

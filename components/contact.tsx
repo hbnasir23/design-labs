@@ -52,12 +52,12 @@ export function Contact() {
               <div>
                 <h4 className="font-semibold mb-1">Email</h4>
                 <p className="opacity-90 text-teal-400">
-                  hello.designlabsolutions@gmail.com
+                  designlab.stripe@gmail.com
                 </p>
               </div>
 
               <div className="flex items-center gap-3 text-gray-300">
-                <span className="text-sm">+1 (203) 555-6548</span>
+                <span className="text-sm">+61 410 700 595</span>
               </div>
               </div>
             </CardContent>
